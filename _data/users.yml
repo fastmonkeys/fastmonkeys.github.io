@@ -1,0 +1,14 @@
+- name: jpvanhal
+  repos:
+    - siilo
+    - pytest-instafail
+    - flask-basicauth
+    - inflection
+    - python-transfluent
+    - pytest-progress
+    - flask-split
+    - flask-xuacompatible
+    - sphinxtools
+    - bitten
+    - Social-Sports
+    - cloudsizzle
