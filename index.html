@@ -13,7 +13,11 @@ layout: default
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
+
   </ul>
+    {% for repo in site.data.users %}
+      {{ repo.name }}: {{ repo.owner }}
+    {% endfor %}
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
