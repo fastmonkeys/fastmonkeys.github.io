@@ -4,7 +4,7 @@ layout: default
 
 <div class="home">
   {% for user in site.data.users %}
-    <div class="user">
+    <div class="user" data-user="{{ user.name }}">
       <h1>{{ user.name }}</h1>
       {% for repo in user.repos %}
         <div class="repository" data-user="{{ user.name }}" data-repo="{{ repo }}">
