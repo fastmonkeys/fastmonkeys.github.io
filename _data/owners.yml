@@ -1,14 +1,14 @@
+- name: fastmonkeys
+  repos:
+    - stellar
+    - sentry-on-heroku
+    - netvisor.py
+    - python-verkkomaksut
+
 - name: jpvanhal
   repos:
-    - siilo
-    - pytest-instafail
-    - flask-basicauth
-    - inflection
-    - python-transfluent
-    - pytest-progress
     - flask-split
-    - flask-xuacompatible
-    - sphinxtools
-    - bitten
-    - Social-Sports
-    - cloudsizzle
+    - pytest-instafail
+    - inflection
+    - siilo
+    - flask-basicauth
