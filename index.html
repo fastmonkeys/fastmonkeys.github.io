@@ -3,14 +3,11 @@ layout: default
 ---
 
 <div class="home">
-  {% for user in site.data.users %}
-    <div class="user" data-user="{{ user.name }}">
-      <h1>{{ user.name }}</h1>
-      {% for repo in user.repos %}
-        <div class="repository" data-user="{{ user.name }}" data-repo="{{ repo }}">
-          <h2 class="repo-title"></h2>
-          <div class="repo-desc"></div>
-          <div class="repo-lang"></div>
+  {% for owner in site.data.owners %}
+    <div class="owner" data-owner="{{ owner.name }}">
+      <h1>{{ owner.name }}</h1>
+      {% for repo in owner.repos %}
+        <div class="repository" data-owner="{{ owner.name }}" data-repo="{{ repo }}">
         </div>
       {% endfor %}
     </div>
