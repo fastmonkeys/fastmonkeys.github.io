@@ -1,0 +1,67 @@
+* {
+    outline: 1px solid green;
+}
+
+/* Repository styles */
+/* ----------------------------------------------------------*/
+.home .repository {
+    outline: 1px solid orange;
+    margin: 0px 10px 20px 10px;
+    width: 220px;
+    height: 250px;
+    float: left;
+    padding: 12px;
+    position: relative;
+}
+
+.home .repository .repo-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.home .user .repository .repo-lang {
+    font-size: 14px;
+    color: grey;
+    margin-top: -7px;
+    margin-bottom: 20px;
+}
+
+.home .user .repository .repo-desc {
+    font-size: 16px;
+}
+
+/* User styles */
+/* ----------------------------------------------------------*/
+.home .profile {
+    outline: 1px solid red;
+    width: 100%;
+    position: absolute;
+    height: 77px;
+    min-height: 77px;
+    bottom: 10px;
+    right: 0px;
+}
+
+.home .profile .repo-popularity {
+    width: 59%;
+    float: left;
+    padding-left: 10px;
+    padding-top: 24%;
+    font-size: 13px;
+}
+
+.home .profile .thumbnail {
+    width: 40%;
+    float: right;
+}
+.home .profile .thumbnail img{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50px;
+}
+.home .profile .thumbnail a {
+    outline: 1px solid yellow;
+    font-size: 12px;
+    display: block;
+    text-align: center;
+}

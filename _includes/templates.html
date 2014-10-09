@@ -1,7 +1,15 @@
 {% raw %}
 <script id="repo-template" type="x-tmpl-mustache">
-    <h2>{{name}}</h2>
-    <div class="description">{{description}}</div>
-    <div class="language">{{language}}</div>
+    <h2 class="repo-title"><a href="{{html_url}}" target="_blank">{{name}}</a></h2>
+    <div class="repo-lang">{{language}}</div>
+    <div class="repo-desc">{{description}}</div>
+    <div class="profile">
+      <span class="thumbnail">
+        {{#owner}}
+        <img src="{{avatar_url}}">
+        <a href="{{url}}" target="_blank">{{login}}</a>
+        {{/owner}}
+      </span>
+    </div>
 </script>
 {% endraw %}
