@@ -4,6 +4,7 @@ email: contact@fastmonkeys.com
 description: "Popular git repositories from some of the people of Fast Monkeys."
 baseurl: ""
 url: "http://fastmonkeys.github.io"
+username: "FastMonkeys"
 
 # Build settings
 markdown: kramdown
