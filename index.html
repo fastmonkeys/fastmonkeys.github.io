@@ -2,14 +2,15 @@
 layout: default
 ---
 
-<div class="home">
-  {% for owner in site.data.owners %}
+<div class="home container-fluid">
+  <div class="row ">
+    {% for owner in site.data.owners %}
     <div class="owner" data-owner="{{ owner.name }}">
-      <h1>{{ owner.name }}</h1>
       {% for repo in owner.repos %}
-        <div class="repository" data-owner="{{ owner.name }}" data-repo="{{ repo }}">
-        </div>
+      <div class="repository col-md-4 col-sm-6 col-xs-12" data-owner="{{ owner.name }}" data-repo="{{ repo }}">
+      </div>
       {% endfor %}
     </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
 </div>
