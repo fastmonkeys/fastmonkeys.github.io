@@ -31,6 +31,8 @@ a:hover   { color: #000; text-decoration: underline; }
   padding: 0px;
   margin: 0 auto;
   zoom: 1;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 
@@ -44,6 +46,7 @@ a:hover   { color: #000; text-decoration: underline; }
   border-bottom: 1px solid #e8e8e8;
   min-height: 48px;
   background-color: #ff941a;
+
 }
 
 .site-title,
@@ -171,12 +174,16 @@ a:hover   { color: #000; text-decoration: underline; }
 
 @media screen and (max-width: 600px) {
 
-  .wrap { padding: 0 12px; }
+  .wrap {
+    padding: 0 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
   .site-nav {
     position: absolute;
     z-index: 10;
-    top: 14px; right: 8px;
+    top: 10px; right: 12px;
     background-color: #ff941a;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
