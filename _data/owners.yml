@@ -12,3 +12,16 @@
     - inflection
     - siilo
     - flask-basicauth
+
+- name: kvesteri
+  repos:
+    - sqlalchemy-utils
+    - sqlalchemy-continuum
+    - sqlalchemy-i18n
+    - sqlalchemy-searchable
+    - sqlalchemy-defaults
+    - validators
+    - intervals
+    - infinity
+    - wtforms-alchemy
+    - wtforms-components
