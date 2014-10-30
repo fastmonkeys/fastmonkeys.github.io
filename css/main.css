@@ -34,6 +34,13 @@ a:hover   { color: #000; text-decoration: underline; }
   zoom: 1;
 }
 
+@media(max-width: 1300px){
+  .site-footer .wrap {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
