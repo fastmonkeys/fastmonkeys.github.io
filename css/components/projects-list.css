@@ -5,11 +5,16 @@
 /* Repository styles */
 /* ----------------------------------------------------------*/
 .home .repository {
-    height: 350px;
     float: left;
     padding: 12px 20px;
+    height: 350px;
 }
-
+@media(max-width: 400px) {
+    .home .repository {
+        height: auto;
+        padding: 12px 0px;
+    }
+}
 .home .repository .repository-inner {
     height: 100%;
     width: 100%;
@@ -18,11 +23,9 @@
     padding-bottom: 82px;
     background-color: rgba(255, 255, 255, 0.71);
 }
-.home .repository .repo-holder {
-}
 .home .repository .repo-holder .repo-star-fork{
     font-size: 18px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 .home .repository .repo-holder .repo-star-fork .octicon{
     font-size: 18px;
@@ -36,7 +39,7 @@
     font-size: 26px;
     margin-top: 5px;
     text-transform: uppercase;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     font-weight: 900;
 }
 .home .repository .repo-title a {
@@ -53,7 +56,21 @@
 .home .repository-inner .repo-desc {
     font-size: 15px;
     line-height: 1.2;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+    max-height: 57px;
+    overflow: hidden;
+}
+@media(max-width: 400px) {
+    .home .repository .repository-inner {
+        padding: 20px 20px;
+    }
+    .home .repository .repo-holder {
+        margin-bottom: 100px;
+    }
+    .home .repository-inner .repo-desc {
+        max-height: 1500px;
+        overflow: visible;
+    }
 }
 
 /* User styles */
